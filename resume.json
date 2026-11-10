@@ -1,0 +1,118 @@
+{
+  "lastUpdated": "2026-11-10",
+  "basics": {
+    "name": "黄硕",
+    "englishName": "Shuo Huang",
+    "title": "AI 架构师 / 应用开发工程师",
+    "location": "香港特别行政区",
+    "email": "",
+    "linkedin": "https://www.linkedin.com/in/%E7%A1%95-%E9%BB%84-6b321b29a/",
+    "github": "https://github.com/shuo-huge",
+    "summary": "专注大模型与 AI Agent 在企业业务中的落地。现任跨境消费电子业务 AI 平台架构与流程自动化负责人，主导选品 Agent、RAG 知识管线、MCP 服务与 LangGraph 多智能体工作流，将商品视觉素材准备时间从 3–5 天缩短到 10 分钟以内。具备 Java / Python 全栈与 iOS 开发背景，擅长把 LLM 能力接入真实业务系统。"
+  },
+  "skills": [
+    {
+      "group": "AI / LLM",
+      "items": [
+        "LangChain / LangGraph",
+        "RAG",
+        "MCP",
+        "多智能体工作流",
+        "提示词工程",
+        "向量数据库"
+      ]
+    },
+    {
+      "group": "后端",
+      "items": [
+        "Java / Spring Boot",
+        "Spring Cloud",
+        "Python",
+        "Go",
+        "REST / 微服务"
+      ]
+    },
+    {
+      "group": "前端与移动端",
+      "items": [
+        "Vue",
+        "iOS（Objective-C / Swift）"
+      ]
+    },
+    {
+      "group": "基础设施",
+      "items": [
+        "Docker",
+        "Kubernetes",
+        "n8n 自动化",
+        "CI / CD"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "FEEL2NICE（深圳瑷胜科技有限公司）",
+      "role": "AI 架构师 / 应用开发工程师",
+      "period": "至今",
+      "location": "香港 / 深圳",
+      "highlights": [
+        "负责跨境消费电子业务的 AI 平台架构与流程自动化，覆盖选品、内容、视觉素材与数据接入。",
+        "用 Python / Go / n8n 搭建选品 Agent，整合市场趋势、竞品、内部销售与库存数据，输出可执行的选品建议。",
+        "建设覆盖商品、评论与研报的 RAG 管线，提升业务问答与内容生成的数据召回质量。",
+        "用 Java / Spring Boot 开发 MCP 服务，将 LLM 安全接入业务数据库与内部系统。",
+        "设计 LangChain / LangGraph 多智能体图像工作流，把商品视觉素材准备时间从 3–5 天缩短到 10 分钟以内。"
+      ]
+    },
+    {
+      "company": "比亚迪",
+      "role": "Java 全栈开发工程师（ERP / 云平台）",
+      "period": "",
+      "location": "",
+      "highlights": [
+        "负责 ERP 与云平台核心模块的设计与开发，支撑内部业务流程与数据集成。"
+      ]
+    },
+    {
+      "company": "乐讯科技",
+      "role": "iOS 开发工程师",
+      "period": "2015 — 2018",
+      "location": "",
+      "highlights": [
+        "参与乐讯社区 App 等移动端产品的架构设计与版本迭代（Objective-C / Swift）。"
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "name": "mcp-nexus",
+      "role": "作者",
+      "description": "MCP 服务器统一网关：集中管理、路由与复用多个 MCP 服务。",
+      "link": "https://github.com/shuo-huge/mcp-nexus"
+    },
+    {
+      "name": "tick-stock-panel",
+      "role": "主要贡献者",
+      "description": "A 股量化工作台：选股、监控、回测与 LLM 驱动的策略定制。",
+      "link": "https://github.com/shuo-huge/tick-stock-panel"
+    },
+    {
+      "name": "cloudcart",
+      "role": "作者",
+      "description": "基于 Cloudflare Workers 的开源插件化电商平台，含可视化页面编辑器与一键部署。",
+      "link": "https://github.com/shuo-huge/cloudcart"
+    }
+  ],
+  "education": [
+    {
+      "school": "陕西师范大学",
+      "degree": "",
+      "period": ""
+    }
+  ],
+  "notes": [
+    "TODO：补充 FEEL2NICE 起始年份",
+    "TODO：补充比亚迪任职年份",
+    "TODO：补充陕西师范大学专业、学位与毕业年份",
+    "TODO：补充联系邮箱 / 电话（basics.email 留空则页面自动隐藏）"
+  ]
+}
