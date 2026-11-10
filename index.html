@@ -389,7 +389,10 @@ function render(data) {
         ${link(p.link, p.name)}
         <span class="project-role">${esc(p.role)}</span>
       </div>
-      <div class="project-desc">${esc(p.description)}</div>
+      <div class="project-desc">
+        ${esc(p.description)}
+        ${(p.highlights || []).length ? `<ul class="bullets">${p.highlights.map((h) => `<li>${esc(h)}</li>`).join("")}</ul>` : ""}
+      </div>
     </div>`).join("");
 
   const education = (data.education || []).map((e) => `

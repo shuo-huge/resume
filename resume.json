@@ -26,6 +26,7 @@
       "group": "后端",
       "items": [
         "Java / Spring Boot",
+        "Hono",
         "Spring Cloud",
         "Python",
         "Go",
@@ -45,7 +46,8 @@
         "Docker",
         "Kubernetes",
         "n8n 自动化",
-        "CI / CD"
+        "CI / CD",
+        "Cloudflare Workers / D1 / R2"
       ]
     }
   ],
@@ -84,6 +86,17 @@
   ],
   "opensource": [
     {
+      "name": "cloudcart",
+      "role": "作者 / 独立开发",
+      "description": "开源电商平台：基于 Cloudflare Workers 边缘运行，Hono + Preact SSR，D1 数据库，可选 R2 存储。",
+      "link": "https://github.com/shuo-huge/cloudcart",
+      "highlights": [
+        "独立完成架构设计与全栈开发：Cloudflare Workers + Hono + Preact 边缘 SSR，D1 数据库，可选 R2 对象存储。",
+        "实现 8 套内置主题、三栏可视化页面编辑器与 Theme SDK；内置 Stripe / PayPal / 手动支付，密钥使用 AES-GCM 加密。",
+        "支持一键部署到用户自己的 Cloudflare 账号，94 项测试通过，MIT 协议开源。"
+      ]
+    },
+    {
       "name": "mcp-nexus",
       "role": "作者",
       "description": "MCP 服务器统一网关：集中管理、路由与复用多个 MCP 服务。",
@@ -94,12 +107,6 @@
       "role": "主要贡献者",
       "description": "A 股量化工作台：选股、监控、回测与 LLM 驱动的策略定制。",
       "link": "https://github.com/shuo-huge/tick-stock-panel"
-    },
-    {
-      "name": "cloudcart",
-      "role": "作者",
-      "description": "基于 Cloudflare Workers 的开源插件化电商平台，含可视化页面编辑器与一键部署。",
-      "link": "https://github.com/shuo-huge/cloudcart"
     }
   ],
   "education": [
