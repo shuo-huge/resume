@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10",
+  "lastUpdated": "2026-11-18",
   "basics": {
     "name": "黄硕",
     "englishName": "Shuo Huang",
@@ -86,10 +86,10 @@
   ],
   "opensource": [
     {
-      "name": "cloudcart",
+      "name": "cartbase",
       "role": "作者 / 独立开发",
       "description": "开源电商平台：基于 Cloudflare Workers 边缘运行，Hono + Preact SSR，D1 数据库，可选 R2 存储。",
-      "link": "https://github.com/shuo-huge/cloudcart",
+      "link": "https://github.com/shuo-huge/cartbase",
       "highlights": [
         "独立完成架构设计与全栈开发：Cloudflare Workers + Hono + Preact 边缘 SSR，D1 数据库，可选 R2 对象存储。",
         "实现 8 套内置主题、三栏可视化页面编辑器与 Theme SDK；内置 Stripe / PayPal / 手动支付，密钥使用 AES-GCM 加密。",
